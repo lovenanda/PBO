@@ -1,4 +1,5 @@
 
+//class main
 public class MamaliaDarat {
     public static void main(String[] args) {
 

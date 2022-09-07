@@ -1,6 +1,10 @@
+//class matematika
 public class Matematika {
+    
+    //atribute
     private double hasil;
 
+    //methode
     public double penjumlahan(double a, double b){
         hasil = a + b;
         return hasil;
