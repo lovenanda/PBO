@@ -7,6 +7,17 @@ public class User {
         this.username = username;
         this.password = password;
     }
+
+    //getter untuk mengambil username dan password
+
+    public String getUsername(){
+        return this.username;
+    }
+
+    public String getPassword(){
+        return this.password;
+    }
+
     
     
 }
@@ -14,5 +25,9 @@ public class User {
 class DemoUser{
     public static void main(String[] args) {
         User u1 = new User("nanda","kopiluakrasaayam");
+        System.out.println("username : "+u1.getUsername());
+        System.out.println("password : "+u1.getPassword());
+
+
     }
 }
