@@ -3,14 +3,22 @@
  */
 public class Person {
 
+    //atribut
+
     private String name;
 
-    Person(String name){
+    //constructor
+
+    public Person(String name){
     }
+
+    //setter 
     
     public void setName(String name){
         this.name = name;
     }
+
+    //getter
 
     public String getName(){
         return this.name;
@@ -18,6 +26,7 @@ public class Person {
 
 }
 
+//main class
 class DemoPerson{
     public static void main(String[] args) {
         Person p1 = new Person("nanda");
