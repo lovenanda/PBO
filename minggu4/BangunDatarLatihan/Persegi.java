@@ -6,12 +6,14 @@ public class Persegi extends BangunDatar{
     @Override
     float luas(){
         float luas = sisi*sisi;
+        System.out.println("Luas persegi "+luas);
         return luas;
     }
-    
+
     @Override
     float keliling(){
-        float keliling = sisi*sisi;
+        float keliling = 4*sisi;
+        System.out.println("Keliling Persegi "+keliling);
         return keliling;
     }
 
