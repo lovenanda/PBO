@@ -1,14 +1,10 @@
 package minggu4.BangunDatarLatihan;
 
 
-public class BangunDatar{
+abstract class BangunDatar{
 
-    float luas(){
-        return 0;
-    }
+    abstract float luas();
 
-    float keliling(){
-        return 0;
-    }
+    abstract float keliling();
 
 }
