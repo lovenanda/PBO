@@ -1,4 +1,3 @@
-
 class Mahasiswa{
     private String name;
     private String NIM;
