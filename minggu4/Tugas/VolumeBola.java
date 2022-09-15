@@ -1,14 +1,15 @@
 public class VolumeBola extends BangunRuang {
 
-    private float r;
+    private float r; //jari jari
 
+    //constructor
     VolumeBola(float r){
         this.r = r;
     }
 
     @Override
     void volume(){
-        float volume = (float)((4.0 / 3.0)* Math.PI * Math.pow(r, 3));
+        float volume = (float)((4.0 / 3.0)* Math.PI * Math.pow(r, 3));//(22/7*r^3)
         System.out.println("\nMenghitung volume bola");
         System.out.println("Jari jari : "+ this.r);
         System.out.println("Volume : "+ volume);
