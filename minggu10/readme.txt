@@ -1,0 +1,1 @@
+minggu 10 tanggal 14/11/2022
